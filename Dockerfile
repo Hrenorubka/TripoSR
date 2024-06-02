@@ -11,5 +11,5 @@ RUN pip install -r requirements.txt
 COPY ./run.py /app/
 ADD tsr /app/tsr
 ADD examples /app/examples
-ENTRYPOINT ["python3", "run.py"]
-CMD ["/app/examples/chair.png", "--output-dir", "output/"]
+COPY ./createImagePath.sh /app/
+CMD ./createImagePath.sh
