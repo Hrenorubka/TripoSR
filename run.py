@@ -135,6 +135,8 @@ if args.no_remove_bg:
     rembg_session = None
 else:
     rembg_session = rembg.new_session()
+if args.image is not None:
+    args.image.sort()
 
 for i, image_path in enumerate(args.image):
     if args.no_remove_bg:
