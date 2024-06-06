@@ -25,7 +25,7 @@ docker stop dl-test-container
 docker rm dl-test-container
 ```
 
-## To copy from docker to host use command:
+## To copy output from docker to host use command:
 ```
 docker cp dl-test-container:/app/output /tmp
 ```
