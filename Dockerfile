@@ -11,7 +11,7 @@ RUN pip install -r requirements.txt
 COPY ../run.py /app/
 ADD ../tsr /app/tsr
 ADD ../test /app/test
-ADD ../examples /app/examples
+ADD ../image_to_compute /app/image_to_compute
 COPY ./createImagePath.sh /app/
 
 CMD [ "ls" ]

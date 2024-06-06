@@ -1,5 +1,5 @@
 #!/bin/bash
-search_dir=examples
+search_dir=image_to_compute
 
 command_str="python3 run.py "
 
