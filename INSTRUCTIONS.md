@@ -14,7 +14,7 @@ After that you can run tests:
 docker exec dl-test-container python3 test/triposr_test.py
 ```
 
-Or run application, that generates 3-d representation for images in [examples](./examples) folder:
+Or run application, that generates 3-d representation for images in [image_to_compute](./image_to_compute) folder:
 ```
 docker exec dl-test-container ./createImagePath.sh
 ```
